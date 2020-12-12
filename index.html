@@ -1,5 +1,6 @@
  <!DOCTYPE html>
  <html>
+<<<<<<< HEAD
  	<head>
 		<title>Calculator</title>
 		<meta charset="utf-8">
@@ -11,7 +12,9 @@
 			<p>
 				<button onclick="power_3()"> x^3 </button>
 				<button onclick="sine()"> sin </button>
-			</p>															<script type="text/javascript">
+				<button onclick="power_4()"> x^4 </button>
+			</p>
+			<script type="text/javascript">
 
 				function power_3() {
 					var num = document.getElementById("n1");
@@ -22,6 +25,10 @@
 					var num = document.getElementById("n1");
 					num.value = Math.sin(num.value);
 				}
-			</script>
+				function power_4() {
+																										var num = document.getElementById("n1");
+					num.value = Math.pow(num.value, 4);
+				}
+		</script>
 	</body>
  </html>
